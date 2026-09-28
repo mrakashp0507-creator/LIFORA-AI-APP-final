@@ -1,0 +1,1273 @@
+{
+  "users": [
+    {
+      "id": "usr-1790610662178-ae578a64",
+      "full_name": "Akash",
+      "mobile_number": "9876543210",
+      "date_of_birth": "2000-01-01",
+      "role": "CUSTOMER",
+      "is_verified": true,
+      "efid": "EF-3RJP-2941",
+      "password_hash": "8edb7976409b911ed66239effd36b4b01541627b2f4db852f310fc76b24e6bfc0709f898ec8a9334692c2cf5b3a38ca79652bc58f35182d2332e49239e4d2f10",
+      "password_salt": "96534989442ac4d7063155a527bc44df",
+      "preferred_language": "en",
+      "inactivity_threshold_days": 30,
+      "last_activity_at": "2026-09-28T15:52:18.128Z",
+      "created_at": "2026-09-28T15:51:02.179Z"
+    },
+    {
+      "id": "usr-1790610880811-68ed52a9",
+      "full_name": "Akash P",
+      "mobile_number": "6385557748",
+      "date_of_birth": "2007-05-09",
+      "role": "CUSTOMER",
+      "is_verified": true,
+      "efid": "EF-E1FA-8544",
+      "password_hash": "368df8989b7a97e47bfbf41091308405f89041129adebc392c197e6470ed8d8a3191c2c830287412787db171c7c8d6ef3c643a7da7f7007d799bb5fc8203b1d0",
+      "password_salt": "f23003bd92685bc61f9789138a95644c",
+      "preferred_language": "en",
+      "masked_identity_number": "AADHAAR •••• 2870",
+      "inactivity_threshold_days": 30,
+      "last_activity_at": "2026-09-28T21:27:47.595Z",
+      "created_at": "2026-09-28T15:54:40.811Z"
+    },
+    {
+      "id": "usr-1790613524543-4b3dadf9",
+      "full_name": "Karthik Subramanian",
+      "mobile_number": "9123456780",
+      "date_of_birth": "1994-08-20",
+      "role": "CUSTOMER",
+      "is_verified": true,
+      "efid": "EF-3A61-9404",
+      "password_hash": "f746ebf04dc31d2c6315251bfd02a64fdd72b2e3b82ded8119cf4deb7f484cdbaf4dd13ff42c2965ba7d5810806ab5aa542a2e16b6db97240311d264c908f743",
+      "password_salt": "da522bd4cc28ccbd3bb53ed9cfe08190",
+      "preferred_language": "en",
+      "masked_identity_number": "AADHAAR •••• 9921",
+      "inactivity_threshold_days": 30,
+      "last_activity_at": "2026-09-28T16:38:44.622Z",
+      "created_at": "2026-09-28T16:38:44.543Z"
+    },
+    {
+      "id": "usr-1790623008628-35efc0da",
+      "full_name": "Test User",
+      "mobile_number": "9999988888",
+      "date_of_birth": "1990-01-01",
+      "role": "CUSTOMER",
+      "is_verified": true,
+      "efid": "EF-C716-5145",
+      "password_hash": "bf7516ada28dc141a9bda9da9912938f01ab94e318e514ad24d7ef968a41cabfadcb01ff77c2d5a04ca2479039c185990ae06b057045bd38ff78dc4a80f614af",
+      "password_salt": "6a2acbd2b7213dcf5de5161d8423f135",
+      "preferred_language": "en",
+      "masked_identity_number": "AADHAAR •••• 1234",
+      "inactivity_threshold_days": 30,
+      "last_activity_at": "2026-09-28T19:16:52.719Z",
+      "created_at": "2026-09-28T19:16:48.629Z"
+    },
+    {
+      "id": "usr-1790623290123-f4adfbda",
+      "full_name": "Suresh Raman",
+      "mobile_number": "9841234567",
+      "date_of_birth": "1988-11-25",
+      "role": "CUSTOMER",
+      "is_verified": true,
+      "efid": "EF-A203-2455",
+      "password_hash": "36fe51ebef7247f3921b67193594188ff6d8515f13e5f2d3f30bff4bf545572271229caa61c4ad776862f5a6648799458d074d78f6f9725fc6828693a1442a73",
+      "password_salt": "3c850e79f124c0de08f3ba8bdc439f8c",
+      "preferred_language": "en",
+      "masked_identity_number": "AADHAAR •••• 5678",
+      "inactivity_threshold_days": 30,
+      "last_activity_at": "2026-09-28T19:21:59.787Z",
+      "created_at": "2026-09-28T19:21:30.124Z"
+    }
+  ],
+  "vaults": {
+    "usr-1790610662178-ae578a64": {
+      "accounts": [],
+      "loans": [],
+      "emis": [],
+      "insurance": [],
+      "commitments": [],
+      "moneyGiven": [],
+      "moneyBorrowed": [],
+      "properties": [],
+      "valuableAssets": [],
+      "vehicles": [],
+      "documents": [],
+      "personalDiary": [],
+      "financialDiary": [],
+      "importantInfo": [],
+      "nominees": [
+        {
+          "id": "nom-priya-1",
+          "name": "Priya Akash",
+          "mobile_number": "9840123456",
+          "relationship": "Spouse",
+          "is_phone_verified": true,
+          "status": "VERIFIED",
+          "created_at": "2026-09-28T15:51:22.302Z"
+        }
+      ],
+      "safetyCheckin": null,
+      "emergencySession": null,
+      "auditLogs": [
+        {
+          "id": "aud-1790631277304-132",
+          "action": "DUE_DATE_CREATED",
+          "actor": "Akash",
+          "details": "Scheduled EMI reminder: \"HDFC Home Loan EMI\" due on 2026-10-06. Recipients: BOTH",
+          "timestamp": "2026-09-28T21:34:37.304Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790610738128-322",
+          "action": "USER_LOGIN_SUCCESS",
+          "actor": "Akash",
+          "details": "Authenticated into LIFORA Vault via E-FID (EF-3RJP-2941)",
+          "timestamp": "2026-09-28T15:52:18.128Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790610738051-283",
+          "action": "NOMINEE_DOCUMENT_DOWNLOAD",
+          "actor": "Nominee: Priya Akash",
+          "details": "Nominee downloaded document: \"Anna Nagar House Deed\"",
+          "timestamp": "2026-09-28T15:52:18.051Z",
+          "severity": "WARNING"
+        },
+        {
+          "id": "aud-1790610738044-738",
+          "action": "NOMINEE_DOCUMENT_VIEW",
+          "actor": "Nominee: Priya Akash",
+          "details": "Nominee viewed document: \"Anna Nagar House Deed\"",
+          "timestamp": "2026-09-28T15:52:18.044Z",
+          "severity": "WARNING"
+        },
+        {
+          "id": "aud-1790610738036-919",
+          "action": "NOMINEE_EMERGENCY_LOGIN",
+          "actor": "Priya Akash",
+          "details": "Nominee (9840123456) authenticated into vault. Permitted documents accessible: 1",
+          "timestamp": "2026-09-28T15:52:18.036Z",
+          "severity": "WARNING"
+        },
+        {
+          "id": "aud-1790610682291-828",
+          "action": "USER_LOGIN_SUCCESS",
+          "actor": "Akash",
+          "details": "Authenticated into LIFORA Vault via E-FID (EF-3RJP-2941)",
+          "timestamp": "2026-09-28T15:51:22.291Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790610670369-388",
+          "action": "DOCUMENT_UPLOADED",
+          "actor": "Akash",
+          "details": "Uploaded document: \"Private Medical Diagnosis\" (Medical). Nominee access: DISABLED",
+          "timestamp": "2026-09-28T15:51:10.369Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790610670361-246",
+          "action": "DOCUMENT_UPLOADED",
+          "actor": "Akash",
+          "details": "Uploaded document: \"Anna Nagar House Deed\" (Property). Nominee access: ENABLED",
+          "timestamp": "2026-09-28T15:51:10.361Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790610670336-313",
+          "action": "USER_LOGIN_SUCCESS",
+          "actor": "Akash",
+          "details": "Authenticated into LIFORA Vault via E-FID (EF-3RJP-2941)",
+          "timestamp": "2026-09-28T15:51:10.336Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790610662345-285",
+          "action": "USER_LOGIN_SUCCESS",
+          "actor": "Akash",
+          "details": "Authenticated into LIFORA Vault via E-FID (EF-3RJP-2941)",
+          "timestamp": "2026-09-28T15:51:02.345Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790610662268-171",
+          "action": "USER_LOGIN_SUCCESS",
+          "actor": "Akash",
+          "details": "Authenticated into LIFORA Vault via E-FID (EF-3RJP-2941)",
+          "timestamp": "2026-09-28T15:51:02.268Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790610662179-reg",
+          "action": "VAULT_CREATED",
+          "actor": "Akash",
+          "details": "Vault registered with permanent E-FID: EF-3RJP-2941",
+          "timestamp": "2026-09-28T15:51:02.179Z",
+          "severity": "INFO"
+        }
+      ],
+      "language": "en"
+    },
+    "usr-1790610880811-68ed52a9": {
+      "accounts": [
+        {
+          "id": "acc-1790610977350",
+          "bank_name": "HDFC",
+          "account_type": "SALARY",
+          "masked_account_number": "1457658978357",
+          "ifsc_code": "HDFC00000675",
+          "branch": "THIRUVALLUR",
+          "created_at": "2026-09-28T15:56:17.350Z"
+        },
+        {
+          "id": "acc-1790610940511",
+          "bank_name": "SBI",
+          "account_type": "SAVINGS",
+          "masked_account_number": "4345287343",
+          "ifsc_code": "SBI000004",
+          "branch": "ARAKKONAM",
+          "created_at": "2026-09-28T15:55:40.511Z"
+        }
+      ],
+      "loans": [
+        {
+          "id": "loan-1790611094286",
+          "provider": "ICIC BANK",
+          "loan_type": "GOLD_LOAN",
+          "original_amount": 300000,
+          "outstanding_amount": 150000,
+          "emi_amount": 5500,
+          "due_date": "10TH EVERY MONTH",
+          "created_at": "2026-09-28T15:58:14.286Z"
+        },
+        {
+          "id": "loan-1790611029643",
+          "provider": "SBI",
+          "loan_type": "EDUCATION_LOAN",
+          "original_amount": 418000,
+          "outstanding_amount": 200000,
+          "emi_amount": 7970,
+          "due_date": "15 OF EVERY MONTH",
+          "created_at": "2026-09-28T15:57:09.643Z"
+        }
+      ],
+      "emis": [],
+      "insurance": [
+        {
+          "id": "ins-1790611149274",
+          "provider": "LIC",
+          "insurance_type": "HEALTH",
+          "policy_number_masked": "LIC-16578934",
+          "premium_amount": 4500,
+          "coverage_amount": 250000,
+          "renewal_date": "2026-08-12",
+          "created_at": "2026-09-28T15:59:09.274Z"
+        }
+      ],
+      "commitments": [],
+      "moneyGiven": [
+        {
+          "id": "given-1790611229700",
+          "person_or_org": "ANAND",
+          "amount": 50000,
+          "date_given": "2026-09-28",
+          "purpose": "FOR EDUCATION",
+          "status": "PENDING",
+          "created_at": "2026-09-28T16:00:29.700Z"
+        },
+        {
+          "id": "given-1790611196794",
+          "person_or_org": "RIO",
+          "amount": 15000,
+          "date_given": "2026-09-28",
+          "purpose": "SOME MEDICAL  ISSUE",
+          "status": "PENDING",
+          "created_at": "2026-09-28T15:59:56.794Z"
+        }
+      ],
+      "moneyBorrowed": [
+        {
+          "id": "borrowed-1790611297245",
+          "person_or_org": "RIYA",
+          "amount": 45000,
+          "date_borrowed": "2026-09-28",
+          "status": "ACTIVE",
+          "notes": "AGREED TO MARCH",
+          "created_at": "2026-09-28T16:01:37.245Z"
+        }
+      ],
+      "properties": [
+        {
+          "id": "prop-1790611386727",
+          "category": "HOUSE",
+          "name": "OMR APPARTMENT",
+          "property_type": "HOUSE",
+          "location": "ANNA NAGAR CHENNAI",
+          "ownership": "SOLE_OWNER",
+          "estimated_value": 85000,
+          "notes": "",
+          "created_at": "2026-09-28T16:03:06.727Z"
+        },
+        {
+          "id": "prop-1790611337186",
+          "category": "LAND",
+          "name": "AGGRICULTURE LAND",
+          "property_type": "LAND",
+          "location": "THIRUVALLUR",
+          "ownership": "SOLE_OWNER",
+          "estimated_value": 400000,
+          "notes": "",
+          "created_at": "2026-09-28T16:02:17.186Z"
+        }
+      ],
+      "valuableAssets": [
+        {
+          "id": "val-1790611729484",
+          "name": "Silver Chain & Silver Vessels",
+          "category": "SILVER",
+          "estimated_value": 500000,
+          "weight_grams": 500,
+          "location_stored": "HOME LOCKER",
+          "created_at": "2026-09-28T16:08:49.484Z"
+        },
+        {
+          "id": "val-1790611664867",
+          "name": "Gold Necklace & Bangles",
+          "category": "GOLD",
+          "estimated_value": 300000,
+          "weight_grams": 120,
+          "location_stored": "SBI SAFE LOCKER",
+          "created_at": "2026-09-28T16:07:44.867Z"
+        }
+      ],
+      "vehicles": [
+        {
+          "id": "veh-1790611558469",
+          "vehicle_type": "TWO_WHEELER",
+          "brand": "HONDA",
+          "model": "56",
+          "registration_number": "TN 21 GH 2387",
+          "insurance_expiry": "",
+          "created_at": "2026-09-28T16:05:58.469Z"
+        },
+        {
+          "id": "veh-1790611485292",
+          "vehicle_type": "CAR",
+          "brand": "PORSCHE",
+          "model": "911",
+          "registration_number": "TN 21 AB 4139",
+          "insurance_expiry": "",
+          "created_at": "2026-09-28T16:04:45.292Z"
+        }
+      ],
+      "documents": [],
+      "personalDiary": [
+        {
+          "id": "pnote-1790611822540",
+          "title": "Emergency Instructions",
+          "content": "In case of an emergency, please contact my registered nominee and follow the required verification process. Important financial documents are securely stored in the document vault.",
+          "is_emergency_shared": true,
+          "category": "PERSONAL_THOUGHT",
+          "created_at": "2026-09-28T16:10:22.540Z",
+          "updated_at": "2026-09-28T16:10:22.540Z"
+        }
+      ],
+      "financialDiary": [
+        {
+          "id": "fnote-1790611906688",
+          "title": "NOMINEE ACCESS",
+          "instructions": "In case of my unexpected death or permanent incapacity, I authorize my pre-registered nominee to access my emergency financial information according to my predefined consent and access permissions. This includes details of my bank accounts, loans, EMI obligations, insurance policies, and other financial commitments. My nominee should use this information only for managing urgent family financial responsibilities and legal succession procedures. All access must be securely verified, time-limited, and recorded in the system.",
+          "category": "INHERITANCE_INSTRUCTION",
+          "created_at": "2026-09-28T16:11:46.688Z",
+          "updated_at": "2026-09-28T16:11:46.688Z"
+        }
+      ],
+      "importantInfo": [],
+      "nominees": [
+        {
+          "id": "nom-1790611952106",
+          "name": "ANNAMALAI",
+          "dob": "2007-04-02",
+          "mobile_number": "8015516462",
+          "relationship": "SON",
+          "is_phone_verified": true,
+          "access_policy": {
+            "allow_financial_summary": true,
+            "allow_loans": true,
+            "allow_emi": true,
+            "allow_insurance": true,
+            "allow_bank_accounts": true,
+            "allow_property": true,
+            "allow_vehicles": true,
+            "allow_valuable_assets": true,
+            "allow_documents": true,
+            "allow_important_info": true,
+            "allow_personal_diary": true,
+            "allow_financial_diary": true
+          },
+          "status": "VERIFIED",
+          "created_at": "2026-09-28T16:12:32.106Z"
+        }
+      ],
+      "safetyCheckin": null,
+      "emergencySession": null,
+      "auditLogs": [
+        {
+          "id": "aud-1790630892956-99",
+          "action": "NOMINEE_EMERGENCY_LOGIN",
+          "actor": "ANNAMALAI",
+          "details": "Nominee (8015516462) authenticated into vault. Permitted documents accessible: 1",
+          "timestamp": "2026-09-28T21:28:12.956Z",
+          "severity": "WARNING"
+        },
+        {
+          "id": "aud-1790630867596-286",
+          "action": "USER_LOGIN_SUCCESS",
+          "actor": "Akash P",
+          "details": "Authenticated into LIFORA Vault via E-FID (EF-E1FA-8544)",
+          "timestamp": "2026-09-28T21:27:47.596Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790624205993-754",
+          "action": "USER_LOGIN_SUCCESS",
+          "actor": "Akash P",
+          "details": "Authenticated into LIFORA Vault via E-FID (EF-E1FA-8544)",
+          "timestamp": "2026-09-28T19:36:45.993Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790619315524-595",
+          "action": "NOMINEE_EMERGENCY_LOGIN",
+          "actor": "ANNAMALAI",
+          "details": "Nominee (8015516462) authenticated into vault. Permitted documents accessible: 1",
+          "timestamp": "2026-09-28T18:15:15.524Z",
+          "severity": "WARNING"
+        },
+        {
+          "id": "aud-1790619271654-411",
+          "action": "UPDATE_NOMINEE_PERMISSIONS",
+          "actor": "Akash P",
+          "details": "Updated access policies for nominee ANNAMALAI",
+          "timestamp": "2026-09-28T18:14:31.654Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790618593768-953",
+          "action": "USER_LOGIN_SUCCESS",
+          "actor": "Akash P",
+          "details": "Authenticated into LIFORA Vault via E-FID (EF-E1FA-8544)",
+          "timestamp": "2026-09-28T18:03:13.768Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790613518686-498",
+          "action": "SAFETY_CHECKIN_RESPONSE",
+          "actor": "Akash P",
+          "details": "Responded: CALL_ME",
+          "timestamp": "2026-09-28T16:38:38.686Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790613516738-942",
+          "action": "SAFETY_CHECKIN_INITIATED",
+          "actor": "ANNAMALAI",
+          "details": "Initiated safety check-in request to owner",
+          "timestamp": "2026-09-28T16:38:36.738Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790613515332-76",
+          "action": "UPDATE_INACTIVITY_THRESHOLD",
+          "actor": "Akash P",
+          "details": "Configured inactivity trigger to 30 days",
+          "timestamp": "2026-09-28T16:38:35.332Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790613501724-166",
+          "action": "SAFETY_CHECKIN_RESPONSE",
+          "actor": "Akash P",
+          "details": "Responded: CALL_ME",
+          "timestamp": "2026-09-28T16:38:21.724Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790613496491-214",
+          "action": "SAFETY_CHECKIN_INITIATED",
+          "actor": "ANNAMALAI",
+          "details": "Initiated safety check-in request to owner",
+          "timestamp": "2026-09-28T16:38:16.491Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790613495006-138",
+          "action": "UPDATE_INACTIVITY_THRESHOLD",
+          "actor": "Akash P",
+          "details": "Configured inactivity trigger to 60 days",
+          "timestamp": "2026-09-28T16:38:15.006Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790611952107-131",
+          "action": "ADD_NOMINEE",
+          "actor": "Akash P",
+          "details": "Registered nominee: ANNAMALAI (8015516462) - Verification Pending",
+          "timestamp": "2026-09-28T16:12:32.107Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790611906689-451",
+          "action": "ADD_FINANCIAL_INSTRUCTION",
+          "actor": "Akash P",
+          "details": "Saved directive: NOMINEE ACCESS",
+          "timestamp": "2026-09-28T16:11:46.689Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790611822541-342",
+          "action": "ADD_PERSONAL_NOTE",
+          "actor": "Akash P",
+          "details": "Created note: Emergency Instructions (Emergency Access: ENABLED)",
+          "timestamp": "2026-09-28T16:10:22.541Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790611729484-491",
+          "action": "ADD_VALUABLE_ASSET",
+          "actor": "Akash P",
+          "details": "Added SILVER: Silver Chain & Silver Vessels",
+          "timestamp": "2026-09-28T16:08:49.484Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790611664868-339",
+          "action": "ADD_VALUABLE_ASSET",
+          "actor": "Akash P",
+          "details": "Added GOLD: Gold Necklace & Bangles",
+          "timestamp": "2026-09-28T16:07:44.868Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790611558470-374",
+          "action": "ADD_VEHICLE",
+          "actor": "Akash P",
+          "details": "Added HONDA 56",
+          "timestamp": "2026-09-28T16:05:58.470Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790611485292-648",
+          "action": "ADD_VEHICLE",
+          "actor": "Akash P",
+          "details": "Added PORSCHE 911",
+          "timestamp": "2026-09-28T16:04:45.292Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790611386727-537",
+          "action": "ADD_PROPERTY",
+          "actor": "Akash P",
+          "details": "Added HOUSE: OMR APPARTMENT",
+          "timestamp": "2026-09-28T16:03:06.727Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790611337187-908",
+          "action": "ADD_PROPERTY",
+          "actor": "Akash P",
+          "details": "Added LAND: AGGRICULTURE LAND",
+          "timestamp": "2026-09-28T16:02:17.187Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790611297246-932",
+          "action": "ADD_MONEY_BORROWED",
+          "actor": "Akash P",
+          "details": "Recorded payable: ₹45000 from RIYA",
+          "timestamp": "2026-09-28T16:01:37.246Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790611229701-392",
+          "action": "ADD_MONEY_GIVEN",
+          "actor": "Akash P",
+          "details": "Recorded receivable: ₹50000 to ANAND",
+          "timestamp": "2026-09-28T16:00:29.701Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790611196794-177",
+          "action": "ADD_MONEY_GIVEN",
+          "actor": "Akash P",
+          "details": "Recorded receivable: ₹15000 to RIO",
+          "timestamp": "2026-09-28T15:59:56.794Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790611149275-563",
+          "action": "ADD_INSURANCE",
+          "actor": "Akash P",
+          "details": "Added HEALTH policy: LIC",
+          "timestamp": "2026-09-28T15:59:09.275Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790611094286-608",
+          "action": "ADD_LOAN",
+          "actor": "Akash P",
+          "details": "Added GOLD_LOAN: ICIC BANK",
+          "timestamp": "2026-09-28T15:58:14.286Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790611029643-39",
+          "action": "ADD_LOAN",
+          "actor": "Akash P",
+          "details": "Added EDUCATION_LOAN: SBI",
+          "timestamp": "2026-09-28T15:57:09.643Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790610977350-299",
+          "action": "ADD_BANK_ACCOUNT",
+          "actor": "Akash P",
+          "details": "Added bank account: HDFC",
+          "timestamp": "2026-09-28T15:56:17.350Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790610940512-301",
+          "action": "ADD_BANK_ACCOUNT",
+          "actor": "Akash P",
+          "details": "Added bank account: SBI ",
+          "timestamp": "2026-09-28T15:55:40.512Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790610899483-35",
+          "action": "USER_LOGIN_SUCCESS",
+          "actor": "Akash P",
+          "details": "Authenticated into LIFORA Vault via E-FID (EF-E1FA-8544)",
+          "timestamp": "2026-09-28T15:54:59.483Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790610880811-reg",
+          "action": "VAULT_CREATED",
+          "actor": "Akash P",
+          "details": "Vault registered with permanent E-FID: EF-E1FA-8544",
+          "timestamp": "2026-09-28T15:54:40.811Z",
+          "severity": "INFO"
+        }
+      ],
+      "language": "en"
+    },
+    "usr-1790613524543-4b3dadf9": {
+      "accounts": [],
+      "loans": [],
+      "emis": [],
+      "insurance": [],
+      "commitments": [],
+      "moneyGiven": [],
+      "moneyBorrowed": [],
+      "properties": [],
+      "valuableAssets": [],
+      "vehicles": [],
+      "documents": [],
+      "personalDiary": [],
+      "financialDiary": [],
+      "importantInfo": [],
+      "nominees": [],
+      "safetyCheckin": null,
+      "emergencySession": null,
+      "auditLogs": [
+        {
+          "id": "aud-1790613524622-800",
+          "action": "USER_LOGIN_SUCCESS",
+          "actor": "Karthik Subramanian",
+          "details": "Authenticated into LIFORA Vault via E-FID (EF-3A61-9404)",
+          "timestamp": "2026-09-28T16:38:44.622Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790613524543-reg",
+          "action": "VAULT_CREATED",
+          "actor": "Karthik Subramanian",
+          "details": "Vault registered with permanent E-FID: EF-3A61-9404",
+          "timestamp": "2026-09-28T16:38:44.543Z",
+          "severity": "INFO"
+        }
+      ],
+      "language": "en"
+    },
+    "usr-1790623008628-35efc0da": {
+      "accounts": [],
+      "loans": [],
+      "emis": [],
+      "insurance": [],
+      "commitments": [],
+      "moneyGiven": [],
+      "moneyBorrowed": [],
+      "properties": [],
+      "valuableAssets": [],
+      "vehicles": [],
+      "documents": [],
+      "personalDiary": [],
+      "financialDiary": [],
+      "importantInfo": [],
+      "nominees": [],
+      "safetyCheckin": null,
+      "emergencySession": null,
+      "auditLogs": [
+        {
+          "id": "aud-1790623012719-546",
+          "action": "USER_LOGIN_SUCCESS",
+          "actor": "Test User",
+          "details": "Authenticated into LIFORA Vault via E-FID (EF-C716-5145)",
+          "timestamp": "2026-09-28T19:16:52.719Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790623008629-reg",
+          "action": "VAULT_CREATED",
+          "actor": "Test User",
+          "details": "Vault registered with permanent E-FID: EF-C716-5145",
+          "timestamp": "2026-09-28T19:16:48.629Z",
+          "severity": "INFO"
+        }
+      ],
+      "language": "en"
+    },
+    "usr-1790623290123-f4adfbda": {
+      "accounts": [],
+      "loans": [],
+      "emis": [],
+      "insurance": [],
+      "commitments": [],
+      "moneyGiven": [],
+      "moneyBorrowed": [],
+      "properties": [],
+      "valuableAssets": [],
+      "vehicles": [],
+      "documents": [],
+      "personalDiary": [],
+      "financialDiary": [],
+      "importantInfo": [],
+      "nominees": [],
+      "safetyCheckin": null,
+      "emergencySession": null,
+      "auditLogs": [
+        {
+          "id": "aud-1790623319788-996",
+          "action": "USER_LOGIN_SUCCESS",
+          "actor": "Suresh Raman",
+          "details": "Authenticated into LIFORA Vault via E-FID (EF-A203-2455)",
+          "timestamp": "2026-09-28T19:21:59.788Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790623308514-771",
+          "action": "USER_LOGIN_SUCCESS",
+          "actor": "Suresh Raman",
+          "details": "Authenticated into LIFORA Vault via E-FID (EF-A203-2455)",
+          "timestamp": "2026-09-28T19:21:48.514Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790623308414-126",
+          "action": "USER_LOGIN_SUCCESS",
+          "actor": "Suresh Raman",
+          "details": "Authenticated into LIFORA Vault via E-FID (EF-A203-2455)",
+          "timestamp": "2026-09-28T19:21:48.414Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790623308324-946",
+          "action": "USER_LOGIN_SUCCESS",
+          "actor": "Suresh Raman",
+          "details": "Authenticated into LIFORA Vault via E-FID (EF-A203-2455)",
+          "timestamp": "2026-09-28T19:21:48.324Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790623303052-868",
+          "action": "USER_LOGIN_SUCCESS",
+          "actor": "Suresh Raman",
+          "details": "Authenticated into LIFORA Vault via E-FID (EF-A203-2455)",
+          "timestamp": "2026-09-28T19:21:43.052Z",
+          "severity": "INFO"
+        },
+        {
+          "id": "aud-1790623290124-reg",
+          "action": "VAULT_CREATED",
+          "actor": "Suresh Raman",
+          "details": "Vault registered with permanent E-FID: EF-A203-2455",
+          "timestamp": "2026-09-28T19:21:30.124Z",
+          "severity": "INFO"
+        }
+      ],
+      "language": "en"
+    }
+  },
+  "documents": [
+    {
+      "id": "doc-1790611773891-735fb7",
+      "user_id": "usr-1790610880811-68ed52a9",
+      "efid": "EF-E1FA-8544",
+      "title": "report se-1",
+      "category": "Identity Proof",
+      "description": "ORIGINAL STORED IN LOCKER",
+      "original_filename": "report se-1.pdf",
+      "mime_type": "application/pdf",
+      "file_size_bytes": 271394,
+      "storage_path": "doc_1790611773882_6k781s8.pdf",
+      "allow_nominee_emergency_access": true,
+      "created_at": "2026-09-28T16:09:33.891Z",
+      "updated_at": "2026-09-28T16:09:33.891Z"
+    },
+    {
+      "id": "doc-1790610670369-3d0f3f",
+      "user_id": "usr-1790610662178-ae578a64",
+      "efid": "EF-3RJP-2941",
+      "title": "Private Medical Diagnosis",
+      "category": "Medical",
+      "description": "Personal confidential medical files",
+      "original_filename": "Confidential_Medical.jpg",
+      "mime_type": "image/jpeg",
+      "file_size_bytes": 17,
+      "storage_path": "doc_1790610670367_e76b89o.jpg",
+      "allow_nominee_emergency_access": false,
+      "created_at": "2026-09-28T15:51:10.369Z",
+      "updated_at": "2026-09-28T15:51:10.369Z"
+    },
+    {
+      "id": "doc-1790610670361-6550f7",
+      "user_id": "usr-1790610662178-ae578a64",
+      "efid": "EF-3RJP-2941",
+      "title": "Anna Nagar House Deed",
+      "category": "Property",
+      "description": "Original deed registered at Chennai Sub-Registrar",
+      "original_filename": "Anna_Nagar_Sale_Deed.pdf",
+      "mime_type": "application/pdf",
+      "file_size_bytes": 59,
+      "storage_path": "doc_1790610670356_hmva30x.pdf",
+      "allow_nominee_emergency_access": true,
+      "created_at": "2026-09-28T15:51:10.361Z",
+      "updated_at": "2026-09-28T15:51:10.361Z"
+    }
+  ],
+  "otp_sessions": {
+    "otp_1790610708733_2618c546": {
+      "verification_id": "otp_1790610708733_2618c546",
+      "mobile_number": "9840123456",
+      "purpose": "NOMINEE_PHONE_VERIFICATION",
+      "code_hash": "349f89cb0bd78b4fb9f7467f880786b638d5966765a7d75bf48de4f4f1d845e559df689d1d3cad5c70be3c1691dd6415ede483524aaa6583c570ff22d2006803",
+      "salt": "bd659fbf20d3c7222fd3048cabaf74fc",
+      "attempts": 0,
+      "max_attempts": 4,
+      "expires_at": 1790611308810,
+      "resend_available_at": 1790610768810,
+      "is_mock": true,
+      "is_verified": false,
+      "created_at": "2026-09-28T15:51:48.810Z"
+    },
+    "otp_1790610737887_f99baf7d": {
+      "verification_id": "otp_1790610737887_f99baf7d",
+      "mobile_number": "9840123456",
+      "purpose": "NOMINEE_PHONE_VERIFICATION",
+      "code_hash": "5cb8aaff94b7070445bd949a12554310f7d0d9838b10d0b18c4b4418b006ef80ae12aa21a36b1ff6b9a951f37477d0524a119fa8002c71ea545cf0b80ffbf08a",
+      "salt": "39e8bbf41aa3957b1bc2d42e8d8524d1",
+      "attempts": 0,
+      "max_attempts": 4,
+      "expires_at": 1790611337956,
+      "resend_available_at": 1790610797956,
+      "is_mock": true,
+      "is_verified": false,
+      "created_at": "2026-09-28T15:52:17.956Z"
+    },
+    "otp_1790610858085_bc823ec8": {
+      "verification_id": "otp_1790610858085_bc823ec8",
+      "mobile_number": "6385557748",
+      "purpose": "USER_PHONE_VERIFICATION",
+      "code_hash": "9cec1077c9b03d6713b72c3df08cb4147a475019ed52add348f827868fdba28b57b85edb5bba4427e382592e5c08803b4c36a8ead7db89c245a799027d2a1821",
+      "salt": "dd4f527838e8cc8780b582a99debfa38",
+      "attempts": 0,
+      "max_attempts": 4,
+      "expires_at": 1790611458156,
+      "resend_available_at": 1790610918156,
+      "is_mock": true,
+      "is_verified": true,
+      "created_at": "2026-09-28T15:54:18.156Z"
+    },
+    "otp_1790611952883_d2ec359a": {
+      "verification_id": "otp_1790611952883_d2ec359a",
+      "mobile_number": "8015516462",
+      "purpose": "NOMINEE_PHONE_VERIFICATION",
+      "code_hash": "402fc704e6ea478775c49e8bb05e110758105f14e88f54c5cb0856bd233ec891ab732ad371ca5f280f91171a818fbc2943ece984e2116f790697ccbf4a0e88c8",
+      "salt": "0d72b9730d171853c4233a4092d9143d",
+      "attempts": 0,
+      "max_attempts": 4,
+      "expires_at": 1790612552953,
+      "resend_available_at": 1790612012953,
+      "is_mock": true,
+      "is_verified": true,
+      "created_at": "2026-09-28T16:12:32.953Z"
+    },
+    "otp_1790612018229_1487b335": {
+      "verification_id": "otp_1790612018229_1487b335",
+      "mobile_number": "8015516462",
+      "purpose": "NOMINEE_PHONE_VERIFICATION",
+      "code_hash": "4c05b6cd9fa476ab6a91fbdf6898f77e04b58d354180742b17332a3a1c57f7f82aad66f6df895a44c818048650f627b8b678b136671b9215df2f079a07a65117",
+      "salt": "6323975568fe7df60a2d830386b58578",
+      "attempts": 0,
+      "max_attempts": 4,
+      "expires_at": 1790612618300,
+      "resend_available_at": 1790612078300,
+      "is_mock": true,
+      "is_verified": false,
+      "created_at": "2026-09-28T16:13:38.300Z"
+    },
+    "otp_1790612061322_43478f74": {
+      "verification_id": "otp_1790612061322_43478f74",
+      "mobile_number": "9876543210",
+      "purpose": "USER_PHONE_VERIFICATION",
+      "code_hash": "fa03de8eb7699bc8787a2bb2a4eab5e93ae3ffd0a276233e1d084c19a8537a787bfd09671a330daa8d6a477a93670e9bbf232d29a0ddb253169ea48843fda865",
+      "salt": "74302b3b78a08fd76af0d8041beb158b",
+      "attempts": 0,
+      "max_attempts": 4,
+      "expires_at": 1790612661393,
+      "resend_available_at": 1790612121393,
+      "is_mock": true,
+      "is_verified": true,
+      "created_at": "2026-09-28T16:14:21.393Z"
+    },
+    "otp_1790612061490_35a5ce79": {
+      "verification_id": "otp_1790612061490_35a5ce79",
+      "mobile_number": "9876543210",
+      "purpose": "USER_PHONE_VERIFICATION",
+      "code_hash": "bb767053817776216587cd4da1fa6b57821715b3c47af167de325d45f75679b43f0b78a5a833b1e970c3d83ede47c8afccb3c7519b59be8cdd2d044efa550a2c",
+      "salt": "66f12c0ac00b687c625ce7dac0159b95",
+      "attempts": 1,
+      "max_attempts": 4,
+      "expires_at": 1790612661572,
+      "resend_available_at": 1790612121572,
+      "is_mock": true,
+      "is_verified": false,
+      "created_at": "2026-09-28T16:14:21.573Z"
+    },
+    "otp_1790612088893_e53be700": {
+      "verification_id": "otp_1790612088893_e53be700",
+      "mobile_number": "8015516462",
+      "purpose": "NOMINEE_PHONE_VERIFICATION",
+      "code_hash": "c4820c7ac8bd215efde988437275bda3e810925e0f321c4b1f77e97b7663c35aabad638741897ab2fe1435988581a2477f3953a8dec970ef70e389eff47bdaff",
+      "salt": "455671e1e1c61495b3af1209233a6feb",
+      "attempts": 0,
+      "max_attempts": 4,
+      "expires_at": 1790612688965,
+      "resend_available_at": 1790612148965,
+      "is_mock": true,
+      "is_verified": false,
+      "created_at": "2026-09-28T16:14:48.965Z"
+    },
+    "otp_1790612162998_e615b467": {
+      "verification_id": "otp_1790612162998_e615b467",
+      "mobile_number": "9876543210",
+      "purpose": "USER_PHONE_VERIFICATION",
+      "code_hash": "a1804f88dad2c3f9216eaa783b5318f63097af2c64b01c674d57a2410ee266145c1ae22ab3dc336534960db1b0242e803a8201d4b9eddc3e1155a530fa07e60f",
+      "salt": "93d9e2de62cce4c02244eb07bdd7b16e",
+      "attempts": 0,
+      "max_attempts": 4,
+      "expires_at": 1790612763068,
+      "resend_available_at": 1790612223068,
+      "is_mock": true,
+      "is_verified": true,
+      "created_at": "2026-09-28T16:16:03.068Z"
+    },
+    "otp_1790612173040_63d7b43d": {
+      "verification_id": "otp_1790612173040_63d7b43d",
+      "mobile_number": "9876543210",
+      "purpose": "USER_PHONE_VERIFICATION",
+      "code_hash": "7427053068923cb104d763caef9ad12bc27ea591c72da717b990b4d329b5d43b0f39ddaa242b983a7d4060ce59db15e4740f82f2e1f7707d3d998bfb84ee28ea",
+      "salt": "d60fb4ced6e7d431332318feded6c4ca",
+      "attempts": 0,
+      "max_attempts": 4,
+      "expires_at": 1790612773124,
+      "resend_available_at": 1790612233124,
+      "is_mock": true,
+      "is_verified": true,
+      "created_at": "2026-09-28T16:16:13.124Z"
+    },
+    "otp_1790612200530_2fcc668e": {
+      "verification_id": "otp_1790612200530_2fcc668e",
+      "mobile_number": "8015516462",
+      "purpose": "NOMINEE_PHONE_VERIFICATION",
+      "code_hash": "0c2bb2181fb2533d35c7d696e02d4e603e344809b3e6906dbc650e84897ebb9586f33a3862e096894d8956410de928e9dcb198018720c66bddb3af7847232f88",
+      "salt": "0f4b887e47117ac3317385e4429b9094",
+      "attempts": 0,
+      "max_attempts": 4,
+      "expires_at": 1790612800602,
+      "resend_available_at": 1790612260602,
+      "is_mock": true,
+      "is_verified": false,
+      "created_at": "2026-09-28T16:16:40.602Z"
+    },
+    "otp_1790612586095_0fd00486": {
+      "verification_id": "otp_1790612586095_0fd00486",
+      "mobile_number": "9876543210",
+      "purpose": "USER_PHONE_VERIFICATION",
+      "code_hash": "70e68b40b890c7703d7aa448362d5b41637cd45636dd98f8dec859014c4ee69c02420ebbd8e35709609365ae5275a21eb6ee93005551b7c373a6fa85da0b5455",
+      "salt": "b128f756b39cee2de43f573b15b8f53b",
+      "attempts": 1,
+      "max_attempts": 4,
+      "expires_at": 1790613186166,
+      "resend_available_at": 1790612646166,
+      "is_mock": true,
+      "is_verified": true,
+      "created_at": "2026-09-28T16:23:06.166Z"
+    },
+    "otp_1790612909936_6ba47a12": {
+      "verification_id": "otp_1790612909936_6ba47a12",
+      "mobile_number": "9876543210",
+      "purpose": "USER_PHONE_VERIFICATION",
+      "code_hash": "9f66cd79b2405e67465b64bb9bde7432757b34c74cccfc63ebad60dabd02ae216bdf35c824703da70ccd38992a207c8773772f044b9e0f7380a7727400d31270",
+      "salt": "68c2e33606abc60ffce82b42e93f428b",
+      "attempts": 0,
+      "max_attempts": 4,
+      "expires_at": 1790613510006,
+      "resend_available_at": 1790612970006,
+      "is_mock": true,
+      "is_verified": true,
+      "created_at": "2026-09-28T16:28:30.006Z"
+    },
+    "otp_1790612985722_b63e26c2": {
+      "verification_id": "otp_1790612985722_b63e26c2",
+      "mobile_number": "8015516462",
+      "purpose": "NOMINEE_PHONE_VERIFICATION",
+      "code_hash": "78bdda2e830e58bbf8b138932f417f69c73f93453573e349440b5ec7883c42f575e372bdf10ec5090139d66fb6a3a0bad5b81f3a435ba56fc3e33f90490f0487",
+      "salt": "21493b479643ebdddda2cb49c3ce468f",
+      "attempts": 0,
+      "max_attempts": 4,
+      "expires_at": 1790613585797,
+      "resend_available_at": 1790613045797,
+      "is_mock": true,
+      "is_verified": false,
+      "created_at": "2026-09-28T16:29:45.797Z"
+    },
+    "otp_1790613093027_e52bf934": {
+      "verification_id": "otp_1790613093027_e52bf934",
+      "mobile_number": "8015516462",
+      "purpose": "NOMINEE_PHONE_VERIFICATION",
+      "code_hash": "8853674422b6470c6baa4790b4fb11dec0416b9d48e09449cbad1cb7e96c38d43516be120db5dfeec5b9f30e37747d1d90f374a993dc6dbff8f8af7701af0f22",
+      "salt": "3e910a9a29596a88f6fcb849beba3a80",
+      "attempts": 0,
+      "max_attempts": 4,
+      "expires_at": 1790613693097,
+      "resend_available_at": 1790613153097,
+      "is_mock": true,
+      "is_verified": false,
+      "created_at": "2026-09-28T16:31:33.097Z"
+    },
+    "otp_1790613492572_57058c76": {
+      "verification_id": "otp_1790613492572_57058c76",
+      "mobile_number": "9876543210",
+      "purpose": "USER_PHONE_VERIFICATION",
+      "code_hash": "2a85f47cc10fdd11682fd13735a6391f64ef84a9c37b104d44aa98152e103f97c0844262435127160e80d14a38ff0a45dc8437194d5e7d5bca5bf71886a9ed4f",
+      "salt": "e4000cfc0186acc459e5f480f45f5dd5",
+      "attempts": 0,
+      "max_attempts": 4,
+      "expires_at": 1790617092657,
+      "resend_available_at": 1790613552657,
+      "is_mock": false,
+      "is_verified": true,
+      "created_at": "2026-09-28T16:38:12.657Z"
+    },
+    "otp_1790613512217_d5e02a62": {
+      "verification_id": "otp_1790613512217_d5e02a62",
+      "mobile_number": "9876543210",
+      "purpose": "USER_PHONE_VERIFICATION",
+      "code_hash": "ad1dd0a0a2f1da5a7e4189d1ab480a9f381ba2e4822d1445f999dd6a161abd9cf4b5c77fbc182f261a7c308b4f4d0ac2baab8bf0b6a204f39e780d91972c1713",
+      "salt": "4fb8d37aed9fc962392b61f10c4b80bf",
+      "attempts": 0,
+      "max_attempts": 4,
+      "expires_at": 1790617112288,
+      "resend_available_at": 1790613572288,
+      "is_mock": false,
+      "is_verified": true,
+      "created_at": "2026-09-28T16:38:32.288Z"
+    },
+    "otp_1790613524382_19457577": {
+      "verification_id": "otp_1790613524382_19457577",
+      "mobile_number": "9123456780",
+      "purpose": "USER_PHONE_VERIFICATION",
+      "code_hash": "cfe5cd475c990e5ea557748398f843cfc40424902ba44d9eef5c269184b0fd497c5eb683e2296d957a7ce31e3840b64b0f6ff55ed1d4c0bbe0b337d61c82a5f2",
+      "salt": "22db7654ddafbe1d45dbcc27b362bd99",
+      "attempts": 0,
+      "max_attempts": 4,
+      "expires_at": 1790617124453,
+      "resend_available_at": 1790613584453,
+      "is_mock": false,
+      "is_verified": true,
+      "created_at": "2026-09-28T16:38:44.453Z"
+    },
+    "otp_1790618601096_1b06f228": {
+      "verification_id": "otp_1790618601096_1b06f228",
+      "mobile_number": "8015516462",
+      "purpose": "NOMINEE_PHONE_VERIFICATION",
+      "code_hash": "975c2b37396ea17fcd3bbeaacd74f6254cf7711c4c8af6dcc565238c289242433c39416e556f12794c1c78b280765d74b44f595947eb141eeb69ced813051ac1",
+      "salt": "c958ee9ca3a7dc8cc1921c56654bf4f4",
+      "attempts": 0,
+      "max_attempts": 4,
+      "expires_at": 1790619201167,
+      "resend_available_at": 1790618661167,
+      "is_mock": true,
+      "is_verified": false,
+      "created_at": "2026-09-28T18:03:21.167Z"
+    },
+    "otp_1790619311778_c438808f": {
+      "verification_id": "otp_1790619311778_c438808f",
+      "mobile_number": "8015516462",
+      "purpose": "NOMINEE_PHONE_VERIFICATION",
+      "code_hash": "8215cf685d7092cfcf7137baf0a884384b4813b3765ea1e05fce8f6a621c91f68e5cff4abf6adf2e15bfe8000cc1e4ade9bc5672c0108fd680e1b1d8cbd8f6c3",
+      "salt": "5ba2a2d6b3ae49bda0da698ba62dec3f",
+      "attempts": 0,
+      "max_attempts": 4,
+      "expires_at": 1790619911850,
+      "resend_available_at": 1790619371850,
+      "is_mock": true,
+      "is_verified": false,
+      "created_at": "2026-09-28T18:15:11.850Z"
+    },
+    "otp_1790624846870_e4585a39": {
+      "verification_id": "otp_1790624846870_e4585a39",
+      "mobile_number": "9876543210",
+      "purpose": "USER_PHONE_VERIFICATION",
+      "code_hash": "addc29ea00cbfae8c630ccf9d2e9bff8970acc3420f1ce068355b8ec94d212304389ae44a3945f820fa1396bb0df21d31c0670b735a21c6aa0f00972ec7c1b7a",
+      "salt": "69ee376a81d90a754c9b55f60b44ffc3",
+      "attempts": 0,
+      "max_attempts": 4,
+      "expires_at": 1790625446941,
+      "resend_available_at": 1790624906941,
+      "is_mock": true,
+      "is_verified": false,
+      "created_at": "2026-09-28T19:47:26.941Z"
+    },
+    "otp_1790630890881_e29200f9": {
+      "verification_id": "otp_1790630890881_e29200f9",
+      "mobile_number": "8015516462",
+      "purpose": "NOMINEE_PHONE_VERIFICATION",
+      "code_hash": "2758b3a5df7beab71650d794bf29164033c6f1ddeabf3ad5101883425fd519e413323a8f78ca9609bd5dcf21edb698c684b9aa4b98b201b657af8396ef9c031a",
+      "salt": "13d823fa30a2dc57edc9e1fccd6bd85d",
+      "attempts": 0,
+      "max_attempts": 4,
+      "expires_at": 1790631490958,
+      "resend_available_at": 1790630950958,
+      "is_mock": true,
+      "is_verified": false,
+      "created_at": "2026-09-28T21:28:10.958Z"
+    }
+  },
+  "nominee_sessions": {
+    "nom_tok_1790610738035_6e877900fdfff9441f8f2d9a69d10f76": {
+      "token": "nom_tok_1790610738035_6e877900fdfff9441f8f2d9a69d10f76",
+      "nominee_id": "nom-priya-1",
+      "nominee_name": "Priya Akash",
+      "nominee_mobile": "9840123456",
+      "owner_efid": "EF-3RJP-2941",
+      "owner_user_id": "usr-1790610662178-ae578a64",
+      "expires_at": 1790625138035,
+      "created_at": "2026-09-28T15:52:18.035Z"
+    },
+    "nom_tok_1790619315523_2034b4448bfa60479c1a0de240f51de3": {
+      "token": "nom_tok_1790619315523_2034b4448bfa60479c1a0de240f51de3",
+      "nominee_id": "nom-1790611952106",
+      "nominee_name": "ANNAMALAI",
+      "nominee_mobile": "8015516462",
+      "owner_efid": "EF-E1FA-8544",
+      "owner_user_id": "usr-1790610880811-68ed52a9",
+      "expires_at": 1790633715523,
+      "created_at": "2026-09-28T18:15:15.523Z"
+    },
+    "nom_tok_1790630892955_2f1239c202e4838dd9302d2d77c55a38": {
+      "token": "nom_tok_1790630892955_2f1239c202e4838dd9302d2d77c55a38",
+      "nominee_id": "nom-1790611952106",
+      "nominee_name": "ANNAMALAI",
+      "nominee_mobile": "8015516462",
+      "owner_efid": "EF-E1FA-8544",
+      "owner_user_id": "usr-1790610880811-68ed52a9",
+      "expires_at": 1790645292955,
+      "created_at": "2026-09-28T21:28:12.955Z"
+    }
+  },
+  "due_dates": [
+    {
+      "id": "due_1790631277303_b74028",
+      "user_id": "usr-1790610662178-ae578a64",
+      "record_type": "EMI",
+      "title": "HDFC Home Loan EMI",
+      "amount": 32500,
+      "due_date": "2026-10-06",
+      "status": "ACTIVE",
+      "reminder_intervals": [
+        7,
+        3,
+        1
+      ],
+      "recipients": "BOTH",
+      "nominee_id": "nom-priya-1",
+      "nominee_name": "Priya Akash",
+      "nominee_mobile": "9840123456",
+      "nominee_consent_granted": true,
+      "notes": "Auto-debit from salary account",
+      "created_at": "2026-09-28T21:34:37.303Z",
+      "updated_at": "2026-09-28T21:34:37.303Z"
+    }
+  ],
+  "reminder_logs": [
+    {
+      "id": "slog_1790631286492_351f20",
+      "user_id": "usr-1790610662178-ae578a64",
+      "due_date_id": "due_1790631277303_b74028",
+      "record_title": "HDFC Home Loan EMI",
+      "record_type": "EMI",
+      "recipient_type": "NOMINEE",
+      "recipient_name": "Priya Akash",
+      "recipient_mobile": "9840123456",
+      "recipient_mobile_masked": "+91 XXXXX X3456",
+      "days_before_due": 7,
+      "due_date": "2026-10-06",
+      "dispatched_at": "2026-09-28T21:34:46.493Z",
+      "status": "DELIVERED",
+      "provider": "MOCK",
+      "message_preview": "LIFORA Alert: Authorized notice for Priya Akash - Scheduled reminder for \"HDFC Home Loan EMI\" (EMI) on 2026-10-06 (Due in 7 days). - LIFORA Vault",
+      "gateway_response": {
+        "status": "DEMO_DISPATCHED",
+        "recipient": "+91 9840123456",
+        "text": "LIFORA Alert: Authorized notice for Priya Akash - Scheduled reminder for \"HDFC Home Loan EMI\" (EMI) on 2026-10-06 (Due in 7 days). - LIFORA Vault"
+      }
+    },
+    {
+      "id": "slog_1790631286491_39e238",
+      "user_id": "usr-1790610662178-ae578a64",
+      "due_date_id": "due_1790631277303_b74028",
+      "record_title": "HDFC Home Loan EMI",
+      "record_type": "EMI",
+      "recipient_type": "OWNER",
+      "recipient_name": "Akash",
+      "recipient_mobile": "9876543210",
+      "recipient_mobile_masked": "+91 XXXXX X3210",
+      "days_before_due": 7,
+      "due_date": "2026-10-06",
+      "dispatched_at": "2026-09-28T21:34:46.491Z",
+      "status": "DELIVERED",
+      "provider": "MOCK",
+      "message_preview": "LIFORA Alert: Reminder - Your EMI \"HDFC Home Loan EMI\" of Rs.32,500 is due on 2026-10-06 (Due in 7 days). Please maintain adequate balance. - LIFORA Vault",
+      "gateway_response": {
+        "status": "DEMO_DISPATCHED",
+        "recipient": "+91 9876543210",
+        "text": "LIFORA Alert: Reminder - Your EMI \"HDFC Home Loan EMI\" of Rs.32,500 is due on 2026-10-06 (Due in 7 days). Please maintain adequate balance. - LIFORA Vault"
+      }
+    }
+  ]
+}

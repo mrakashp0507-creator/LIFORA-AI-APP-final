@@ -1,0 +1,10 @@
+{
+  "name": "Remix Remix Remix Remix Lifora AI - Life Vault \u0026 Digital Inheritance",
+  "description": "Secure digital life vault, emergency triggers, legacy diary, and AI-powered nominee inheritance platform.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

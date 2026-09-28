@@ -1,0 +1,23 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "User profile containing verified phone and E-FID",
+      "type": "object",
+      "properties": {
+        "efid": { "type": "string" },
+        "fullName": { "type": "string" },
+        "phone": { "type": "string" },
+        "isPhoneVerified": { "type": "boolean" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["efid", "phone", "isPhoneVerified"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "Verified user profile records"
+    }
+  }
+}
